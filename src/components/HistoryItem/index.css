@@ -1,0 +1,72 @@
+.history-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .history-item {
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px 10px 20;
+  }
+}
+
+.domain-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .domain-details-container {
+    width: 85%;
+  }
+}
+
+.domain-details {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 10px;
+}
+
+.time-stamp {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
+}
+
+.domain-logo {
+  width: 30px;
+  margin-right: 8px;
+}
+
+title {
+  margin-right: 8px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.domain-url {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding-left: 12px;
+  margin-bottom: 8px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
